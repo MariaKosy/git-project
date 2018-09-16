@@ -1,0 +1,65 @@
+.c-article {
+
+    .c-article__image {
+        background-image: src;  
+    .o-image__pic{
+        margin-right:40px;
+        padding-top:20px;
+        width:700px;
+        height:350px;
+        border:none;
+        float:right;
+        }
+    .o-image__desc{
+        margin-left: 800px;
+        text-align: center;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 15px;
+        float:right;
+
+    }
+}
+        
+        .c-article__lead {
+         text-align: justify;
+        width: 550px;
+        padding-left: 20px;
+        white-space: normal;
+        padding-top:20px;
+    }
+
+    .c-article__p1 {
+        font-size:20px;
+        padding-top:15px;
+    }
+
+    .c-article__p2 {
+        font-size:20px;
+        padding-top:15px;
+       
+    }
+
+    &__content {
+        padding-top:50px;
+        padding-left:20px;
+    }
+    
+}
+    .c-article__meta{
+        padding-top:30px;
+        text-align: right;
+        .c-article__contact{
+            .o-link{
+                color:rgb(51, 72, 190);
+                text-decoration: underline;
+            }
+        }
+            }
+                
+            
+        
+            
+        
+
+    
+    

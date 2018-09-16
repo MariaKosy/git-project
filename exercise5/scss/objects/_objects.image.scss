@@ -1,0 +1,29 @@
+
+.o-image {
+     .o-image__pic {
+        background-image: src;
+        display: block;
+        padding: 1px;
+        width: 70px;
+        height: 50px; 
+        margin-right: auto;
+        border-radius: 5px;
+        border-image-width: 20px;
+        border: 2px solid black;
+        
+    }   .o-image__desc {
+        font-size: 10px;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-weight: bold;
+        vertical-align: text-top;
+        letter-spacing: 0.1em;
+        padding-bottom: 5px;
+        margin-right:40px;
+    
+    }
+
+    &--rounded {}
+
+    &--centered {}
+}

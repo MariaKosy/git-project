@@ -1,0 +1,33 @@
+.c-testimonial { font-size: 30px;
+    .c-testimonial__image {
+        background-image: src;
+        padding-top:30px;
+        .o-image__pic{
+            
+            margin-left:610px;
+            height: 80px;
+            width: 90px;
+        }
+        
+    }
+        .o-image__desc{
+            padding-top:20px;
+            margin-right: 40px;
+            text-align: center;
+            font-size:15px;
+        }
+    
+
+    &__desc{
+        padding-top:30px;
+        padding-left:150px;
+        padding-right:150px;
+        font-size:12px;
+        font-family: cursive;
+        text-align: center;
+        
+     
+    
+    }
+
+}

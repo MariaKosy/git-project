@@ -1,0 +1,19 @@
+.c-heading {
+    &--primary {
+        font-size: 30px;
+        letter-spacing: 0.2em;
+        text-align: center;
+        padding-bottom: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family:'Trebuchet MS';
+    }
+
+    .c-heading--secondary {
+        white-space: normal;
+        text-align: right;
+        text-transform: uppercase;
+        
+        
+        }
+    }
