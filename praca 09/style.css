@@ -1,0 +1,45 @@
+
+html, body {
+    padding: 5px 0 0 5px;
+    margin: 5px 0 0 5px;
+}
+
+
+#game{  
+    position: relative;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+}
+
+#cross{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+}
+
+.enemy{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: rgb(82, 197, 187);
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+}
+
+.big-enemy{
+    width: 20px;
+    height: 20px;
+    background-color: rgb(106, 98, 185);
+        
+}
+
+.small-enemy{
+    width: 15px;
+    height: 15px;
+   background-color: rgb(5, 56, 56);
+     }
